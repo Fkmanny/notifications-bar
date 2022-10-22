@@ -1,0 +1,153 @@
+html{
+    background-color: hsl(210, 60%, 98%);
+    font-size: 16px;
+}
+#card{
+    margin: auto;
+    width: 550px;
+    height: 700px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, .1);
+    padding: 30px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+#notifications, #notification-bar, #mark, #angela, #jacob, #rizky, #kimberly, #nathan, #anna {
+    display: flex;
+    flex-direction: row;
+  
+}
+#notification-bar{
+    justify-content: space-between;
+}
+img{
+    width: 38px;
+    height: 38px;
+}
+.full-line{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.red-dot{
+    display: var(--none);
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin: 6.5px 6px;
+}
+
+#no3{
+    color: white;
+    background-color: hsl(219, 85%, 26%);
+    margin-left: 10px;
+    width: 22px;
+    padding-left: 6px;
+    border-radius: 5px;
+}
+#read{  
+    padding-top: 9px;
+}
+#read p:hover{
+    cursor: pointer;
+    color:hsl(219, 84%, 32%);
+    font-weight: 700;
+}
+#read p{
+    margin-top: 15px;
+    
+}
+p{
+    color: hsl(219, 12%, 42%);
+    margin: 0;
+    opacity: 0.9;
+}
+
+.common-property{
+    background-color: rgb(247, 250, 253);
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.common-property:hover{
+    cursor: pointer;
+}
+#mark, #angela, #jacob, #rizky, #kimberly, #nathan, #anna{
+    background-color: var(--colur);
+}
+.text{
+    margin-left: 10px;
+}
+#rizky{
+    display: flex;
+    flex-direction: column;
+}
+.text-rizky{
+    display: flex;
+    flex-direction: row;
+}
+.opaq{
+    opacity: 0.6;
+}
+.span1{
+    color: hsl(224, 21%, 14%);
+    font-weight: 600;
+    
+}
+span:hover{
+    cursor: pointer;
+    color:hsl(219, 84%, 32%);
+    font-weight: 900;
+    font-size: 1.03rem;
+}
+.span2{
+    color: hsl(224, 21%, 14%);
+    font-weight: 600;
+    opacity: 0.8;
+}
+.span3{
+    color:hsl(219, 85%, 26%);
+    font-weight: 600;
+}
+
+#message{
+    display: var(--visible);
+    margin-top: 5px;
+    padding: 15px;
+    margin-left: 49px;
+    border: 1px solid rgb(210, 209, 209);
+    border-radius: 4px;
+}
+#chess-image{
+    padding-left: 25%;
+}
+
+#chess-image:hover{
+    width: 40px;
+    height: 40px;
+}
+@media (max-width:636px){
+    #card{
+        width: auto;
+        height: auto;
+        font-size: 0.7rem;
+    }
+
+    #read p{
+        margin-top: 10px;
+    }
+    #no3{
+        width: 15px;
+        padding-left: 4px;
+    }
+    .red-dot{
+        margin: 5px 6px 0px 6px;
+    }
+    #chess-image{
+        padding-left: 5%;
+    }
+    span:hover, #read p:hover{
+       
+        font-size: 0.8rem;
+    }
+}
